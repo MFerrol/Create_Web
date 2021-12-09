@@ -20,8 +20,8 @@
 
 title:            'Wax'
 description:      'Minimal Exhibitions with Jekyll'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
+url:              'https://mferrol.github.io'
+baseurl:          '/Create_Web'
 copyright:        'Example copyright org, 2019'
 logo:             '/assets/logo.png'
 
@@ -88,12 +88,10 @@ search:
       caribbean_books:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
-          - artist
-          - location
           - label
+          - artist
           - _date
-          - object_type
-          - current_location
+          - location
 
 # --------------------------------------------------------------
 # SITE MENU SETTINGS
