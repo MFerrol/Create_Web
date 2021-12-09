@@ -65,7 +65,7 @@ kramdown:
 collections:
   exhibits:
     output: true
-  qatar: # name of collection
+  caribbean_books: # name of collection
     output: true # makes sure pages are output as html files
     layout: 'caribbean_books_item' # the layout for the pages to use
     metadata:
@@ -85,7 +85,7 @@ search:
   main:
     index: '/search/index.json' # file the index will get written to
     collections:
-      qatar:
+      caribbean_books:
         content: false # whether or not to index page content
         fields: # the metadata fields to index
           - artist
